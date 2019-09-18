@@ -19,7 +19,7 @@ Either download the zip file or use the git clone command.
 ```
 Using the terminal:
 (navigate to the folder you want to download into)
-> git clone this-repositories-url
+> git clone this-repository-url
 > npm install
 > node server.js
 (Then direct your browser to localhost:3002)
