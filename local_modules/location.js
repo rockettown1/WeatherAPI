@@ -2,7 +2,7 @@ const request = require("request");
 const { promisify } = require("util");
 
 const token =
-  "pk.eyJ1Ijoicm9ja2V0dG93biIsImEiOiJjanQ2ZmEyZnowZjloNDRtd2VtemR3dzZmIn0.JLgxwoeoCASsZ8WDYI3-5A";
+  "YOUR_API_KEY_GOES_HERE";
 
 const promisifiedRequest = promisify(request);
 
