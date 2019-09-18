@@ -1,16 +1,16 @@
-# Project Title
+# RESTful Weather API
 
 Demo Node.js App
 
 ## Getting Started
 
-This source code is here for CN students if you need something to reference or you think you missed a bit as we went through it. If you'd like to run this application on your local machine you can either use the clone git command, or download the zip file and unpack it + open in VSCode.
+This source code is here for CN students if you need something to reference or you think you missed a bit as we went through it. If you'd like to run this application on your local machine you can either clone it, or download the zip file and unpack it + open in VSCode.
 
 You will need to grab your own API keys for both DarkSky.net and MapBox
 
 ### Prerequisites
 
-Once you've got it on your machine, simply run 'npm install' in your terminal to install the dependencies listed in the package.json file.
+It's worth taking the time to refresh your knowledge of exporting/importing modules, using promises (and Promisify), using async/await, how Express.js works, and the reasons we seperated our methods into their own modules (.js files)
 
 ### Installing
 
@@ -25,6 +25,6 @@ Using the terminal:
 (Then direct your browser to localhost:3002)
 ```
 
-## Acknowledgments
+## Tech Reference
 
-This app uses Node.js for the back-end. We use the request module (which we promisified) to get data from two different APIs. We then use the Express.js web framework to create our own web server and RESTful API.
+JavaScript, Node.js, NPM, Express.js (setting up endpoints and serving static files), Promises, Async/Await, Http requests
