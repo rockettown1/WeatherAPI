@@ -1,6 +1,5 @@
 const { getLocation } = require("./location.js");
 const { getWeather } = require("./weather.js");
-// const colors = require("colors");
 
 const main = async place => {
   try {
